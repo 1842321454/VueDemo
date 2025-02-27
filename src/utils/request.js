@@ -30,7 +30,7 @@ server.interceptors.response.use(response => {
  * @param {*} options axios的配置
  */
 function request(options) {
-    server.defaults.baseURL=' https://mock.presstime.cn/mock/67a5715f95c4c5029e066f54/api'
+    server.defaults.baseURL='https://mock.presstime.cn/mock/67c022bfb1cc7302801e1b31/example'
     return server(options);
 }
 
